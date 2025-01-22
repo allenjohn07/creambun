@@ -1,3 +1,5 @@
+'use client'
+
 import { OrbitingCircles } from "@/components/ui/orbiting-circles";
 import { FaReact } from "react-icons/fa";
 import { RiNextjsFill } from "react-icons/ri";

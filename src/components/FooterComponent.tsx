@@ -1,3 +1,5 @@
+'use client'
+
 import React from "react";
 import { MarqueeComponent } from "./MarqueeComponent";
 import CenterUnderline from "./fancy/underline-center";

@@ -1,7 +1,7 @@
 import { cn } from "@/lib/utils";
 import AnimatedShinyText from "@/components/ui/animated-shiny-text";
 
-export async function AnimatedShinyTextComponent() {
+export function AnimatedShinyTextComponent() {
   return (
     <div className="z-10 flex pt-10 items-center justify-center">
       <div

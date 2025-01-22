@@ -39,7 +39,7 @@ export function MagicCardComponent() {
         <h3 className="text-2xl font-semibold mb-4">Video Editing</h3>
         <p className="text-muted-foreground text-wrap mb-4">
           Professional video editing to make your content stand out. From
-          promotional videos to social media content, we've got you covered.
+          promotional videos to social media content, we&apos;ve got you covered.
         </p>
         <ul className="list-disc list-inside mb-6 text-muted-foreground">
           <li>Color Grading</li>

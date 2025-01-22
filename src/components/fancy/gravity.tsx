@@ -13,6 +13,7 @@ import {
 } from "react"
 import { calculatePosition } from "@/utils/calculate-position"
 import { parsePathToVertices } from "@/utils/svg-path-to-vertices"
+//@ts-ignore
 import { debounce } from "lodash"
 import Matter, {
   Bodies,

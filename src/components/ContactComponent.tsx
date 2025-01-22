@@ -1,3 +1,5 @@
+'use client'
+
 import Link from "next/link"
 import { Mail } from "lucide-react"
 import { Button } from "@/components/ui/button"
@@ -8,7 +10,7 @@ export default function ContactComponent() {
     <div>
       <div className="text-center">
         <p className="text-muted-foreground mb-8 max-w-md mx-auto">
-          I'm always open to new opportunities and conversations. Feel free to reach out through email or LinkedIn.
+          I&apos;m always open to new opportunities and conversations. Feel free to reach out through email or LinkedIn.
         </p>
         <div className="space-y-4">
           <Button asChild className="w-full max-w-xs">

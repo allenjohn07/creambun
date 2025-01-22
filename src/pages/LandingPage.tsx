@@ -9,6 +9,7 @@ import { Globe } from "lucide-react";
 import Link from "next/link";
 import React from "react";
 import { FaGithub } from "react-icons/fa";
+export const dynamic = 'force-dynamic'
 
 const LandingPage = () => {
   return (
@@ -130,7 +131,7 @@ const LandingPage = () => {
               },
               {
                 type: "Source",
-                href: "https://github.com/cubingkeralaorg/cubingkerala",
+                href: "https://github.com/allenjohn07/creambun",
                 icon: <FaGithub className="size-3" />,
               },
             ]}
