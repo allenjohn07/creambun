@@ -14,7 +14,7 @@ export const dynamic = 'force-dynamic'
 const LandingPage = () => {
   return (
     <div>
-      <section>
+      <section className="h-screen flex justify-center items-center">
         <InteractiveGridPatternComponent />
       </section>
 

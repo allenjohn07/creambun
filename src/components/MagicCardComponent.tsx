@@ -19,7 +19,7 @@ export function MagicCardComponent() {
       >
         <Code className="h-12 w-12 mb-4 text-primary" />
         <h3 className="text-2xl font-semibold mb-4">Web Development</h3>
-        <p className="text-muted-foreground text-wrap mb-4 w-fit">
+        <p className="text-muted-foreground text-wrap mb-4 w-fit text-md">
           Custom websites tailored to your needs. From responsive designs to
           full-stack applications, we bring your ideas to life.
         </p>
@@ -29,7 +29,7 @@ export function MagicCardComponent() {
           <li>CMS Integration</li>
           <li>Performance Optimization</li>
         </ul>
-        <Button variant="outline">Learn More</Button>
+        {/* <Button variant="outline">Learn More</Button> */}
       </MagicCard>
       <MagicCard
         className="cursor-pointer tracking-tighter flex-col p-5 w-full md:w-fit h-fit items-center justify-center whitespace-nowrap"
@@ -47,7 +47,7 @@ export function MagicCardComponent() {
           <li>Sound Design</li>
           <li>Video Optimization for Web</li>
         </ul>
-        <Button variant="outline">Learn More</Button>
+        {/* <Button variant="outline">Learn More</Button> */}
       </MagicCard>
     </div>
   );

@@ -17,7 +17,7 @@ const NavbarComponent = () => {
       className="flex bg-white z-50 sticky top-0 justify-between items-center bg-transparent px-5 md:px-56 py-5 mx-auto"
     >
       <Link href={"/"}>
-        <h1 className="text-5xl md:text-5xl tracking-tighter abril-fatface-regular">
+        <h1 className="text-4xl md:text-5xl tracking-tighter abril-fatface-regular">
           Creambun
         </h1>
       </Link>
@@ -42,17 +42,17 @@ const NavbarComponent = () => {
       <div className="block md:hidden">
         <Sheet>
           <SheetTrigger>
-            <div className="border p-4 rounded-full">
+            <div className="border p-4 rounded-full hover:bg-gray-50">
               <Menu size={30} className="hover:cursor-pointer" />
             </div>
           </SheetTrigger>
           <SheetContent style={{ zIndex: 10000 }} className="w-full">
             <SheetHeader>
-              <SheetTitle className="text-5xl mt-2 tracking-tighter abril-fatface-regular text-start">
+              <SheetTitle className="text-4xl mt-2 tracking-tighter abril-fatface-regular text-start">
                 Creambun
               </SheetTitle>
             </SheetHeader>
-            <div className="flex flex-col h-5 mt-5 items-start space-y-5">
+            <div className="flex flex-col h-5 mt-10 items-start space-y-5">
               <Link className="tracking-tighter text-3xl" href="#services">
                 <SheetClose><CenterUnderline label="services" /></SheetClose>
               </Link>
@@ -65,6 +65,10 @@ const NavbarComponent = () => {
               <Link className="tracking-tighter text-3xl" href="#contact">
                 <SheetClose><CenterUnderline label="contact" /></SheetClose>
               </Link>
+            </div>
+            <div className="absolute bottom-5 left-5 w-full">
+              <div className="flex items-center justify-center"><hr className="w-[90vw] mr-10 mb-5"/></div>
+              <p className="tracking-tighter">© {new Date().getFullYear()} Creambun</p>
             </div>
           </SheetContent>
         </Sheet>
