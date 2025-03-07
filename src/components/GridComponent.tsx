@@ -13,7 +13,7 @@ export function InteractiveGridPatternComponent() {
       <p className="z-10 hidden md:block whitespace-pre-wrap w-full text-center text-[5rem] abril-fatface-regular tracking-tighter text-black dark:text-white">
         Bring Your Digital Vision to Life
       </p>
-      <p className="z-10 w-full text-center text-5xl abril-fatface-regular tracking-tighter text-black dark:text-white">
+      <p className="z-10 block md:hidden w-full text-center text-5xl abril-fatface-regular tracking-tighter text-black dark:text-white">
         Bring Your Digital Vision to Life
       </p>
       <p className="z-10 pt-5 hidden md:block whitespace-pre-wrap w-full md:w-1/2 text-center text-3xl abril-fatface-regular tracking-tighter text-black dark:text-white">
